@@ -50,7 +50,7 @@ a {
 
 .main-body {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
     height: 79.3vh;
 }
@@ -63,7 +63,6 @@ a {
 .first-row {
     display: flex;
     justify-content: space-around;
-    padding-bottom: 30px;
     width: 429px;
 }
 
@@ -117,7 +116,6 @@ a {
     display: flex;
     justify-content: space-evenly;
     width: 310px;
-    padding-top: 30px;
 }
 
 .pic4 {
