@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-image: url('../Pic/main.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-page {
+    background-color: rgba(73, 73, 73, 0.377);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 26px;
+    padding: 10px 15px 0px 15px;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.name {
+    font-size: 30px;
+    color: #FFFFFF;
+    padding-left: 50px;
+}
+
+.main-nav a {
+    font-size: 22px;
+    padding: 0px 15px;
+}
+
+.main-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 79.3vh;
+}
+
+.first-line {
+    display: flex;
+    justify-content: center;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    width: 429px;
+}
+
+.pic1 {
+    width: 109px;
+    height: 109px;
+    border-radius: 50%;
+    background-image: url(../Pic/img1.png);
+    background-size: cover;
+
+}
+
+.pic2 {
+    width: 109px;
+    height: 109px;
+    border-radius: 50%;
+    background-image: url(../Pic/img2.png);
+    background-size: cover;
+}
+
+.pic3 {
+    width: 109px;
+    height: 109px;
+    border-radius: 50%;
+    background-image: url(../Pic/img3.png);
+    background-size: cover;
+}
+
+.logo {
+    width: 360px;
+    height: 104px;
+    background-image: url(../Pic/logo.png);
+    background-size: cover;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+
+.mid {
+    display: flex;
+    justify-content: center;
+}
+
+.second-line {
+    display: flex;
+    justify-content: center;
+}
+
+
+.second-row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 310px;
+    padding-top: 30px;
+}
+
+.pic4 {
+    width: 109px;
+    height: 109px;
+    border-radius: 50%;
+    background-image: url(../Pic/img4.png);
+    background-size: cover;
+
+}
+
+.pic5 {
+    width: 109px;
+    height: 109px;
+    border-radius: 50%;
+    background-image: url(../Pic/img5.png);
+    background-size: cover;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer img {
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    margin-top: 8px;
+}
